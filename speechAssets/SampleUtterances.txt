@@ -1,0 +1,4 @@
+GetNewCompliment give me a compliment
+GetNewCompliment tell me a compliment
+GetNewCompliment compliment me
+GetNewCompliment tell me something nice
