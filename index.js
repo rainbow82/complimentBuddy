@@ -9,7 +9,7 @@ var languageStrings = {
                 "You are awesome.",
                 "You shine like a star",
                 "You rock!",
-                "Mirror Mirror on the wall, you aren't the fairest of them all.",
+                "Mirror Mirror on the wall, you are not the fairest of them all.",
                 "You make my day better."
             ],
             "SKILL_NAME" : "Compliment Buddy",
@@ -27,8 +27,9 @@ var languageStrings = {
                 "You are awesome.",
                 "You shine like a star",
                 "You rock!",
-                "Mirror Mirror on the wall, you aren't the fairest of them all.",
-                "You make my day better."
+                "Mirror Mirror on the wall, you are not the fairest of them all.",
+                "You make my day better.",
+                "You are so fetch."
             ],
             "SKILL_NAME" : "American Compliment Buddy"
         }
@@ -39,7 +40,7 @@ var languageStrings = {
                 "You are awesome.",
                 "You shine like a star",
                 "You rock!",
-                "Mirror Mirror on the wall, you aren't the fairest of them all.",
+                "Mirror Mirror on the wall, you are not the fairest of them all.",
                 "You make my day better."
             ],
             "SKILL_NAME" : "British Compliment Buddy"
@@ -82,13 +83,13 @@ var handlers = {
     'GetCompliment': function () {
         // Get a random space fact from the space facts list
         // Use this.t() to get corresponding language data
-        var factArr = this.t('COMPLIMENTS');
-        var factIndex = Math.floor(Math.random() * factArr.length);
-        var randomFact = factArr[factIndex];
+        var ComplimentArr = this.t('COMPLIMENTS');
+        var ComplimentIndex = Math.floor(Math.random() * ComplimentArr.length);
+        var randomCompliment = ComplimentArr[ComplimentIndex];
 
         // Create speech output
-        var speechOutput = this.t("GET_COMPLIMENT_MESSAGE") + randomFact;
-        this.emit(':tellWithCard', speechOutput, this.t("SKILL_NAME"), randomFact)
+        var speechOutput = this.t("GET_COMPLIMENT_MESSAGE") + randomCompliment;
+        this.emit(':tellWithCard', speechOutput, this.t("SKILL_NAME"), randomCompliment)
     },
     'AMAZON.HelpIntent': function () {
         var speechOutput = this.t("HELP_MESSAGE");
