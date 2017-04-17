@@ -8,9 +8,9 @@ var languageStrings = {
             "COMPLIMENTS": [
                 "You are awesome.",
                 "You shine like a star",
-                "You are the smartest.",
-                "Short girls rock!",
-                "Mirror Mirror on the wall, you aren't the fairest of them all."
+                "You rock!",
+                "Mirror Mirror on the wall, you aren't the fairest of them all.",
+                "You make my day better."
             ],
             "SKILL_NAME" : "Compliment Buddy",
             "GET_COMPLIMENT_MESSAGE" : "Here's your compliment: ",
@@ -19,14 +19,16 @@ var languageStrings = {
             "STOP_MESSAGE" : "Goodbye!"
         }
     },
+
+    //update responses here
     "en-US": {
         "translation": {
             "COMPLIMENTS": [
                 "You are awesome.",
                 "You shine like a star",
-                "You are the smartest.",
-                "Short girls rock!",
-                "Mirror Mirror on the wall, you aren't the fairest of them all."
+                "You rock!",
+                "Mirror Mirror on the wall, you aren't the fairest of them all.",
+                "You make my day better."
             ],
             "SKILL_NAME" : "American Compliment Buddy"
         }
@@ -36,9 +38,9 @@ var languageStrings = {
             "COMPLIMENTS": [
                 "You are awesome.",
                 "You shine like a star",
-                "You are the smartest.",
-                "Short girls rock!",
-                "Mirror Mirror on the wall, you aren't the fairest of them all."
+                "You rock!",
+                "Mirror Mirror on the wall, you aren't the fairest of them all.",
+                "You make my day better."
             ],
             "SKILL_NAME" : "British Compliment Buddy"
         }
